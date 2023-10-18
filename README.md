@@ -5,25 +5,18 @@ Utilizei o Wampp como servidor para o meu projeto e o MySQL que o mesmo me propo
 
 # Iniciar o projeto
 
-. composer install
+. <p>composer install</p>
 O componser para instalar as dependencia do php laravel.
 
-. npm install
+ .<p>npm install</p>
 o node está no projeto por conta do Tailwind css que estou usando para estilizar as paginas.
 
-. Wampp
+. <p>Wampp</p>
 Usuado como servidor e bando de dados
 
 # Banco de dados
 
 O meu banco de dados foi iniciado dessa forma localmente
-
-DB_CONNECTION=mysql
-DB_HOST=127.0.0.1
-DB_PORT=3306
-DB_DATABASE=produtos
-DB_USERNAME=root
-DB_PASSWORD=
 
 Estou usando uma migrate e para iniciar apenas ela precisa roda esse comando:
 
